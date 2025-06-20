@@ -1,7 +1,7 @@
 type: Item
 name: Blurple
 description: a like Blurple.
-color: #9b58ff
+color: 9b58ff
 cost: 1
 buildable: true
 research: spore-pod
