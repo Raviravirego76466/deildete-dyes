@@ -1,0 +1,38 @@
+type: GenericCrafter
+name: Sky Mixer
+description: cryofuild and output sky.
+size: 2
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  sky/1
+  ]
+consumes: {
+  liquids:[
+    cryofluid/1 
+    ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      alpha: 1
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+requirements: [
+  titanium/40
+]
+researchCostMultiplier: 0.5
+research: spore-press
