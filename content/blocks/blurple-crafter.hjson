@@ -1,0 +1,41 @@
+type: GenericCrafter
+name: Blurple Mixer
+description: Mixes and Spore pod and cryofiuld and output Blurple.
+size: 2
+scaledHealth: 60
+squareSprite: false
+craftEffect: smeltsmoke
+outputItems: [
+  blurple/1
+  ]
+consumes: {
+  liquids:[
+    cryofluid/1 
+    ]
+  items: [
+    spore-pod/1
+  ]
+}
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawRegion
+      suffix: -bottom
+    }
+    {
+      type: DrawLiquidTile
+      drawLiquid: cryofluid
+      alpha: 1
+      padding: 3
+    }
+    {
+      type: DrawDefault
+    }
+  ]
+}
+requirements: [
+  spore-pod/40
+]
+researchCostMultiplier: 0.5
+research: spore-press
