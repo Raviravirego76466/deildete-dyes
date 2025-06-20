@@ -1,0 +1,17 @@
+#the mod name as displayed in-game
+displayName: "Delicate Dyes"
+
+#the internal name of your mod
+name: "delicate-dyes"
+
+#your name
+author: "Raviravirego76466"
+  
+#the mod description as seen in the mod dialog
+description: "A Mindustry mod."
+
+#the mod version
+version: 1.0
+
+#the minimum game build required to run this mod
+minGameVersion: 146
