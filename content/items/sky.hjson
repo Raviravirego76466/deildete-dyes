@@ -1,0 +1,7 @@
+type: Item
+name: Sky
+description: a like Sky.
+color: 58c6ff
+cost: 1
+buildable: true
+research: blurple
